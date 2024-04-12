@@ -1,2 +1,163 @@
 # Netflix-Clone
 This repository hosts a simple front-end Netflix clone created using HTML and CSS. Explore a basic replica of Netflix's interface with a dynamic carousel and responsive design.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="netflix.css">
+    <title>Netflix Website Clone</title>
+</head>
+<body>
+    <div class="header">
+    <nav> 
+       <img src="images/logo.png" class="logo">
+       <div>
+        <button class="language-btn"> English <img src="images/down-icon.png"></button>
+        <button> Sign In</button>
+       </div>
+    </nav>
+    <div class="header-content">
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <p>Ready to watch? Enter your email to create or restart your membership</p>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Get Started </button>
+        </form>
+    </div>
+    </div>
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2> Enjoy on your TV.</h2>
+                <p> Watch on smart TVs, Playstation, Xbox. Chromecast, Apple TV, Blu-ray players and more. </p>
+            </div>
+            <div class="img-col">
+                <img src="images/feature-1.png">
+            </div>
+        </div>
+        <div class="features">
+            <div class="row">
+                <div class="img-col">
+                    <img src="images/feature-2.png">
+                </div>
+                <div class="text-col">
+                    <h2> Download your shows to watch offline  .</h2>
+                    <p> Save your favourite easily and always have somethig to watch. </p>
+                </div>
+                
+            </div>
+            <div class="features">
+                <div class="row">
+                    <div class="text-col">
+                        <h2> Watch everywhere</h2>
+                        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV. </p>
+                    </div>
+                    <div class="img-col">
+                        <img src="images/feature-3.png">
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="row">
+                         <div class="img-col">
+                        <img src="images/feature-4.png">
+                    </div>
+                        <div class="text-col">
+                            <h2> Create profiles for children.</h2>
+                            <p> Send children on adventures with their favourite characters in a space made just for them-free with your membership. </p>
+                        </div>
+                        
+                    </div>
+    </div>
+
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordion" id="first">
+                <label for="first">What is Netflix?</label>
+                <div class="content">
+                    <p> Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies on an internet-connected device. Depending on your plan, you can also download TV shows and movies to your iOS, Android, or Windows 10 device and watch without an internet connection.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second">How much does Netflix cost?</label>
+                <div class="content">
+                    <p>Netflix pricing starts at $7 a month, but following a Netflix price hike in October 2023, you now have to pay $23 a month to get the best video quality without ads. And due to Netflix's recent crackdown on password sharing, it now costs an additional $8 a month to add an extra user to your account in the US</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third">Where can I watch?</label>
+                <div class="content">
+                    <p> Your personal computer or laptop
+                        Smart TVs
+                        Set-top boxes
+                        Blu-ray players
+                        Game consoles</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth">
+                <label for="fourth">How do I cancel?</label>
+                <div class="content">
+                    <p> Streaming plans: select the Cancel Membership button on your Account page.
+                        DVD plans (US-only): select cancel your DVD plan from your Account page.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fifth">
+                <label for="fifth">What can I watch on Netflix?</label>
+                <div class="content">
+                    <p> Netflix offers a wide range of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="sixth">
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>Netflix has lots of great content for kids, but there are shows and movies that aren't appropriate for them. To address this, Netflix offers a Kids experience that is included in your membership</p>
+                </div>
+            </li>
+        </ul>
+        <small>Ready to watch? Enter your email to create or restart your membership</small>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Get Started </button>
+        </form> 
+    </div>
+    <div class="footer">
+        <h2>Questions? call 000-000-000-000</h2>
+
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookies Preference</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Coperate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Center</a>
+                <a href="#">Terms of use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="language-btn"> English <img src="images/down-icon.png"></button>
+   <p class="  copyright-txt">Netflix India</p>
+    </div>
+</body>
+</html>
